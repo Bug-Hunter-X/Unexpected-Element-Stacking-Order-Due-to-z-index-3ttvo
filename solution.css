@@ -1,0 +1,19 @@
+/* solution.css */
+
+.element-a {
+  position: relative;
+  z-index: 10;
+  background-color: lightblue;
+}
+
+.element-b {
+  position: relative;
+  z-index: 20;
+  background-color: lightcoral;
+  /* Ensure that element b is on top of element a */
+}
+
+/* Ensure that the parent has position: relative to allow z-index to function correctly. */
+.parent {
+  position: relative; 
+} 
