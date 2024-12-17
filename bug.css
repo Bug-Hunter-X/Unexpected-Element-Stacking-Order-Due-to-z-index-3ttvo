@@ -1,0 +1,1 @@
+The CSS code has an issue where the z-index property is not correctly applied to elements, causing unexpected stacking of elements.  The element with a higher z-index is rendered behind an element with a lower z-index. This is a common issue when working with complex layouts or nested elements.
