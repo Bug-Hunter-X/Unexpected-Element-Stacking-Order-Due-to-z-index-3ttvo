@@ -1,0 +1,3 @@
+# Unexpected Element Stacking Order Due to z-index
+
+This repository demonstrates a common CSS issue where the `z-index` property does not behave as expected, leading to incorrect element stacking.  The bug involves unexpected rendering order of elements, even when `z-index` values suggest otherwise. The solution provides a corrected CSS file illustrating proper use of `z-index` to achieve the correct element stacking.
